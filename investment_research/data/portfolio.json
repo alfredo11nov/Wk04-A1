@@ -1,0 +1,15 @@
+{
+  "holdings": [
+    {"symbol": "AAPL",  "name": "Apple Inc.",                    "shares": 10, "avg_cost": 165.00, "sector": "Technology"},
+    {"symbol": "MSFT",  "name": "Microsoft Corporation",          "shares": 8,  "avg_cost": 380.00, "sector": "Technology"},
+    {"symbol": "VTI",   "name": "Vanguard Total Stock Market ETF","shares": 20, "avg_cost": 220.00, "sector": "ETF - Broad Market"},
+    {"symbol": "BRK-B", "name": "Berkshire Hathaway Class B",     "shares": 5,  "avg_cost": 350.00, "sector": "Financials"},
+    {"symbol": "QQQ",   "name": "Invesco QQQ Trust",              "shares": 6,  "avg_cost": 420.00, "sector": "ETF - Technology"},
+    {"symbol": "NVDA",  "name": "NVIDIA Corporation",             "shares": 3,  "avg_cost": 800.00, "sector": "Semiconductors"},
+    {"symbol": "JPM",   "name": "JPMorgan Chase & Co.",           "shares": 7,  "avg_cost": 190.00, "sector": "Financials"}
+  ],
+  "cash": 5000.00,
+  "risk_tolerance": "moderate",
+  "investment_goals": "Long-term growth with some dividend income",
+  "currency": "USD"
+}
