@@ -12,9 +12,9 @@ import anthropic
 from datetime import datetime
 from pathlib import Path
 
-from .config import MODEL, PORTFOLIO_FILE, WATCHLIST_FILE, CACHE_FILE
+from .config import MODEL, PORTFOLIO_FILE, WATCHLIST_FILE, CACHE_FILE, ANTHROPIC_API_KEY
 
-client = anthropic.Anthropic()
+client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
 
 # ── System prompts ────────────────────────────────────────────────────────────

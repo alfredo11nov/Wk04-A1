@@ -4,7 +4,12 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
 
+# Prefer explicit env var; fall back to Claude Code managed-environment session token
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+if not ANTHROPIC_API_KEY:
+    _token_file = os.environ.get("CLAUDE_SESSION_INGRESS_TOKEN_FILE", "")
+    if _token_file and Path(_token_file).exists():
+        ANTHROPIC_API_KEY = Path(_token_file).read_text().strip()
 MODEL = "claude-opus-4-8"
 
 # ntfy.sh push notifications
