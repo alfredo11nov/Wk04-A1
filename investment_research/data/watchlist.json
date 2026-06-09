@@ -1,15 +1,40 @@
 {
   "funds": [
-    {"symbol": "ARKK", "name": "ARK Innovation ETF",               "interest": "High-growth technology disruption"},
-    {"symbol": "GLD",  "name": "SPDR Gold Shares",                 "interest": "Inflation hedge and safe haven"},
-    {"symbol": "IVV",  "name": "iShares Core S&P 500 ETF",         "interest": "Broad US market exposure"},
-    {"symbol": "EEM",  "name": "iShares MSCI Emerging Markets ETF","interest": "Emerging market diversification"},
-    {"symbol": "TSLA", "name": "Tesla Inc.",                       "interest": "EV / AI / Energy revolution"},
-    {"symbol": "PLTR", "name": "Palantir Technologies",            "interest": "AI and data analytics growth"},
-    {"symbol": "AMD",  "name": "Advanced Micro Devices",           "interest": "Semiconductor competition with NVDA"},
-    {"symbol": "BITO", "name": "ProShares Bitcoin Strategy ETF",   "interest": "Crypto exposure via ETF"},
-    {"symbol": "XBI",  "name": "SPDR Biotech ETF",                 "interest": "Biotechnology sector plays"}
+    {"symbol": "IVV",  "name": "iShares Core S&P 500 ETF",          "interest": "Core 40% low-risk allocation — broad US market benchmark"},
+    {"symbol": "QQQ",  "name": "Invesco QQQ Trust",                  "interest": "Tech-heavy S&P alternative; compare vs IVV for allocation"},
+    {"symbol": "ARKK", "name": "ARK Innovation ETF",                  "interest": "High-growth disruptive tech basket — conviction vs self-stock-picking"},
+    {"symbol": "GLD",  "name": "SPDR Gold Shares",                   "interest": "Inflation hedge and macro hedge signal"},
+    {"symbol": "EEM",  "name": "iShares MSCI Emerging Markets ETF",  "interest": "Asia/EM diversification beyond current Alibaba exposure"},
+    {"symbol": "AMD",  "name": "Advanced Micro Devices",             "interest": "AI semiconductor — NVDA alternative or complement"},
+    {"symbol": "BITO", "name": "ProShares Bitcoin Strategy ETF",     "interest": "Crypto exposure via regulated ETF"},
+    {"symbol": "XBI",  "name": "SPDR Biotech ETF",                   "interest": "Biotech sector as next 3-5yr growth theme"},
+    {"symbol": "MSFT", "name": "Microsoft Corporation",              "interest": "AI infrastructure + Copilot monetisation; competes in all positions"},
+    {"symbol": "AMZN", "name": "Amazon.com Inc.",                    "interest": "AWS AI cloud + logistics moat"}
   ],
+
+  "special_research": [
+    {
+      "name": "Situational Awareness Fund",
+      "founder": "Leopold Aschenbrenner",
+      "type": "fund_deep_dive",
+      "background": "Leopold Aschenbrenner is a former OpenAI researcher who published 'Situational Awareness: The Decade Ahead' (June 2024) — a landmark essay arguing that AGI is imminent and will reshape geopolitics and markets. He subsequently founded a fund based on this thesis.",
+      "research_questions": [
+        "Which companies has the Situational Awareness Fund (Leopold Aschenbrenner) invested in?",
+        "What is the approximate allocation ratio per company or sector?",
+        "What is the stated investment rationale for each position?",
+        "What macro/technology trends are they betting on for the next 3-5 years?",
+        "What are the key opportunities and risks in this thesis?",
+        "How does the portfolio composition compare to our own holdings and watchlist?"
+      ]
+    }
+  ],
+
   "focus_regions": ["United States", "Asia Pacific", "Europe"],
-  "themes": ["Artificial Intelligence", "Clean Energy", "Semiconductors", "Digital Assets", "Emerging Markets"]
+  "themes": [
+    "Artificial Intelligence & AGI Infrastructure",
+    "Energy & Data Centre Power",
+    "Semiconductors",
+    "Digital Assets",
+    "Emerging Markets — China Recovery"
+  ]
 }

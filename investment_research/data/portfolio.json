@@ -1,15 +1,59 @@
 {
+  "base_currency": "SGD",
+  "total_portfolio_sgd": 105000,
+
   "holdings": [
-    {"symbol": "AAPL",  "name": "Apple Inc.",                    "shares": 10, "avg_cost": 165.00, "sector": "Technology"},
-    {"symbol": "MSFT",  "name": "Microsoft Corporation",          "shares": 8,  "avg_cost": 380.00, "sector": "Technology"},
-    {"symbol": "VTI",   "name": "Vanguard Total Stock Market ETF","shares": 20, "avg_cost": 220.00, "sector": "ETF - Broad Market"},
-    {"symbol": "BRK-B", "name": "Berkshire Hathaway Class B",     "shares": 5,  "avg_cost": 350.00, "sector": "Financials"},
-    {"symbol": "QQQ",   "name": "Invesco QQQ Trust",              "shares": 6,  "avg_cost": 420.00, "sector": "ETF - Technology"},
-    {"symbol": "NVDA",  "name": "NVIDIA Corporation",             "shares": 3,  "avg_cost": 800.00, "sector": "Semiconductors"},
-    {"symbol": "JPM",   "name": "JPMorgan Chase & Co.",           "shares": 7,  "avg_cost": 190.00, "sector": "Financials"}
+    {
+      "symbol": "TSLA",  "name": "Tesla Inc.",
+      "shares": 95,  "avg_cost": 349.00,  "currency": "SGD",
+      "sector": "EV / AI / Energy",  "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "NVDA",  "name": "NVIDIA Corporation",
+      "shares": 39,  "avg_cost": 185.00,  "currency": "SGD",
+      "sector": "Semiconductors / AI",  "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "GOOGL", "name": "Alphabet Inc. (Google)",
+      "shares": 13,  "avg_cost": 296.00,  "currency": "SGD",
+      "sector": "Technology / AI",  "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "META",  "name": "Meta Platforms Inc.",
+      "shares": 9,   "avg_cost": 621.00,  "currency": "SGD",
+      "sector": "Social Media / AI",  "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "PLTR",  "name": "Palantir Technologies",
+      "shares": 60,  "avg_cost": 131.00,  "currency": "SGD",
+      "sector": "AI / Data Analytics",  "exchange": "NYSE"
+    },
+    {
+      "symbol": "TIGR",  "name": "UP Fintech Holding (Tiger Brokers)",
+      "shares": 700, "avg_cost": 10.45,   "currency": "SGD",
+      "sector": "Fintech / Brokerage",   "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "9988",  "name": "Alibaba Group (HK)",
+      "shares": 100, "avg_cost": 86.92,   "currency": "HKD",
+      "sector": "E-Commerce / Cloud / AI", "exchange": "HKEX"
+    }
   ],
-  "cash": 5000.00,
-  "risk_tolerance": "moderate",
-  "investment_goals": "Long-term growth with some dividend income",
-  "currency": "USD"
+
+  "cash_sgd": 12950,
+  "risk_tolerance": "aggressive",
+
+  "strategy": {
+    "high_risk_pct": 60,
+    "high_risk_notes": "Focused 1-3 growth stocks targeting 20-50% annual return. Invest based on validated thesis. Concentrated bets.",
+    "low_risk_pct": 40,
+    "low_risk_notes": "S&P 500 index fund (IVV/QQQ). Steady compounding, low effort.",
+    "bets_per_year": 5,
+    "min_bet_sgd": 5000,
+    "max_bet_sgd": 10000,
+    "rare_opportunity_override": true,
+    "rare_opportunity_notes": "May exceed 5-bet rule for exceptional asymmetric opportunities with clear catalyst"
+  },
+
+  "investment_goals": "Aggressive long-term wealth compounding. 60% in high-conviction growth (20-50%/yr). 40% in S&P index. Max 5 focused trades per year at SGD $5-10k each unless a rare opportunity arises."
 }
